@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.2074074074074074" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/drawable_1.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/round.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1355" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/constraintlayout_1.xml" value="0.20998992919921877" />
+        <entry key="app/src/main/res/layout/constraintlayout_2.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/constraintlayout_3.xml" value="0.24644978841145831" />
+        <entry key="app/src/main/res/layout/constraintlayout_4.xml" value="0.22037963867187502" />
+        <entry key="app/src/main/res/layout/constraintlayout_5.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/constraintlayout_6.xml" value="0.19213104248046875" />
+        <entry key="app/src/main/res/layout/constraintlayout_lab1.xml" value="0.20433705647786454" />
+        <entry key="app/src/main/res/layout/constraintlayout_lab2.xml" value="0.20443776448567708" />
+        <entry key="app/src/main/res/layout/drawable.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/framelayout.xml" value="0.21444142659505205" />
+        <entry key="app/src/main/res/layout/gravity.xml" value="0.2420186360677083" />
+        <entry key="app/src/main/res/layout/homeworklayout.xml" value="0.22252495452647902" />
+        <entry key="app/src/main/res/layout/linearlayout.xml" value="0.2101851851851852" />
+        <entry key="app/src/main/res/layout/linearlayout_05.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/linearlayout_lab1.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/margin_padding.xml" value="0.20712331136067705" />
+        <entry key="app/src/main/res/layout/relativelayout.xml" value="0.2116383870442708" />
+        <entry key="app/src/main/res/layout/relativelayout_2.xml" value="0.23884277343750004" />
+        <entry key="app/src/main/res/layout/relativelayout_lab1.xml" value="0.20158437093098952" />
+        <entry key="app/src/main/res/layout/relativelayout_lab2.xml" value="0.23213246663411458" />
+        <entry key="app/src/main/res/layout/resource.xml" value="0.33886617024739585" />
+        <entry key="app/src/main/res/layout/scrollview.xml" value="0.20836537679036454" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

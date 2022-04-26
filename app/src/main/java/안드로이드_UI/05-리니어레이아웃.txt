@@ -1,0 +1,14 @@
+리니어 레이아웃(Linear Layout)
+- 부모가 될 수 있는 뷰(컨터이너 뷰)
+- 자식의 위치를 설정하는 뷰
+    - 가로, 세로로 설정 할 수 있다.
+
+- 속성
+    - orientation : 자식의 뷰의 방향을 설정
+        - vertical
+        - horizontal
+
+크기를 설정하는 특수한 키워드
+- match_parent
+
+- wrap_content
