@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MasterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,6 +13,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".PersonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeworkActivity_addView"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GlideActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResourceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ApplicationActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".AsyncActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreadActivity"
+            android:exported="false" />
         <activity
             android:name=".FragmentActivity"
             android:exported="false" />
@@ -55,7 +104,7 @@
             android:name=".TestActivity"
             android:exported="false" />
         <activity
-            android:name=".ThreadActivity"
+            android:name=".ApplicationActivityOne"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
