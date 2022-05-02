@@ -5,12 +5,26 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2074074074074074" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.112" />
+        <entry key="app/src/main/res/drawable/cirlce.xml" value="0.1325" />
         <entry key="app/src/main/res/drawable/drawable_1.xml" value="0.159" />
         <entry key="app/src/main/res/drawable/drawable_2.xml" value="0.159" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.112" />
         <entry key="app/src/main/res/drawable/round.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/round_button.xml" value="0.16213684082031254" />
         <entry key="app/src/main/res/drawable/yellow_background.xml" value="0.1355" />
+        <entry key="app/src/main/res/layout/activity_calculator.xml" value="0.26754150390625003" />
+        <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/activity_home_work2.xml" value="0.2795120239257813" />
+        <entry key="app/src/main/res/layout/activity_intent1.xml" value="0.22056159420289856" />
+        <entry key="app/src/main/res/layout/activity_intent_one.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_intent_two.xml" value="0.22056159420289856" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/activity_one.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.2006340579710145" />
+        <entry key="app/src/main/res/layout/activity_thread.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/activity_three.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/activity_two.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/activity_view_control02.xml" value="0.20425724637681159" />
         <entry key="app/src/main/res/layout/constraintlayout_1.xml" value="0.20998992919921877" />
         <entry key="app/src/main/res/layout/constraintlayout_2.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/constraintlayout_3.xml" value="0.24644978841145831" />
@@ -20,6 +34,7 @@
         <entry key="app/src/main/res/layout/constraintlayout_lab1.xml" value="0.20433705647786454" />
         <entry key="app/src/main/res/layout/constraintlayout_lab2.xml" value="0.20443776448567708" />
         <entry key="app/src/main/res/layout/drawable.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/first_fragment.xml" value="0.23233695652173914" />
         <entry key="app/src/main/res/layout/framelayout.xml" value="0.21444142659505205" />
         <entry key="app/src/main/res/layout/gravity.xml" value="0.2420186360677083" />
         <entry key="app/src/main/res/layout/homeworklayout.xml" value="0.22252495452647902" />

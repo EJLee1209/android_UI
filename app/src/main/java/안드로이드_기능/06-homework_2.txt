@@ -1,0 +1,9 @@
+WebView를 이용해서 웹페이지 로드하기
+
+
+기능
+1. URL주소를 입력할 수 있다
+2. 버튼을 통해서 입력된 URL 주소를 webview 에서 로드 할 수 있다.
+
+방법1 - intent를 사용하지 않고 webview에 url을 로드한다.
+방법2 - intent를 사용해서 webview에 url을 로드한다.

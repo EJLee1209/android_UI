@@ -4,16 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 
-
-class MainActivity : AppCompatActivity() {
+class Activity_01 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // savedInstanceState : 사용자가 남기고간 이전 상태를 복원하거나 저장하기 위해서 사용되는 파라미터
-        setContentView(R.layout.homeworklayout) //화면을 그려준다
+        setContentView(R.layout.activity_01) //화면을 그려준다
         // 한번만 하면 되는 작업
         Log.d("LifeCycle" , "onCreate")
     }
-
     override fun onStart() {
         Log.d("LifeCycle" , "onStart")
         super.onStart()
@@ -44,4 +42,3 @@ class MainActivity : AppCompatActivity() {
         super.onRestart()
     }
 }
-
