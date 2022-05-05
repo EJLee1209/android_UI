@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -41,9 +42,15 @@ class ChattingActivity : AppCompatActivity() {
 
 
         val recyclerView = findViewById<RecyclerView>(R.id.chatting_list)
-        recyclerView.adapter = RecyclerViewAdapter2(chattingList, LayoutInflater.from(this), this)
+        val adapter = RecyclerViewAdapter2(chattingList, LayoutInflater.from(this), this)
+
+        recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
 
+        findViewById<Button>(R.id.button).setOnClickListener {
+            adapter.chattingList.add(2, Person2("두번째 입니다", 2))
+            adapter.notifyItemInserted(2)
+        }
     }
 
 }
@@ -96,7 +103,11 @@ class RecyclerViewAdapter2(
         return chattingList.size
     }
 
+
+
+
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+
         when(chattingList[position].multi_type){
             1 -> {
                 (holder as ViewHolder1).chattingImage.setImageDrawable(

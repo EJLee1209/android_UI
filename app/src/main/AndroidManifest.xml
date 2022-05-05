@@ -14,13 +14,25 @@
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".TabLayoutPagerSimpleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabLayoutPagerNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabLayoutPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChattingActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecyclerViewActivity"
             android:exported="false" />
         <activity
             android:name=".ListViewActivity"
             android:exported="false" />
         <activity
-            android:name=".ChattingActivity"
+            android:name=".SharedPreferenceActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
