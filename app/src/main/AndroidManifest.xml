@@ -3,6 +3,7 @@
     package="com.example.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:name=".MasterApplication"
@@ -13,6 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".RetrofitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoomActivity"
+            android:exported="false"
+            android:label="@string/title_activity_network"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".SharedPreferenceActivity"
+            android:exported="false" />
         <activity
             android:name=".TabLayoutPagerSimpleActivity"
             android:exported="false" />
@@ -32,7 +47,7 @@
             android:name=".ListViewActivity"
             android:exported="false" />
         <activity
-            android:name=".SharedPreferenceActivity"
+            android:name=".PermissionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
